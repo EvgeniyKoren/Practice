@@ -4,7 +4,10 @@ package com.company.annotation;
         instantiated = false)
 public class User {
 
+    @UnInitialized
     private String name;
+
+    @UnInitialized
     private int num;
 
     @Override
